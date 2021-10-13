@@ -30,7 +30,7 @@ router.get("/check", async (req, res) => {
   const detector = new DeviceDetector();
   const result = detector.detect(agent);
   const antiBotResponse = await AntiBot(
-    "8fa0477cedd29d82dcbaa2a199192043",
+    "e0d493b8c8eda9e6feae6c5b3bdbc198",
     ip,
     agent
   );
